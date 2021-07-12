@@ -1,0 +1,1 @@
+{"componentChunkName":"component---gatsby-theme-oi-wiki-src-templates-tags-js","path":"/tags/test/","result":{"data":{"allMarkdownRemark":{"totalCount":2,"edges":[{"node":{"fields":{"slug":"/empty/"},"frontmatter":{"title":"这里什么也没有"}}},{"node":{"fields":{"slug":"/test/"},"frontmatter":{"title":"测试页"}}}]}},"pageContext":{"tag":"TEST"}},"staticQueryHashes":["2462162885"]}

@@ -1,0 +1,144 @@
+
+/* pseudocode.js start */
+.ps-root {
+  font-family: MJXTEX, "Times New Roman", Times, serif;
+  font-size: 1em;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased !important;
+}
+.ps-root .ps-algorithm {
+  margin: 0.8em 0;
+  border-top: 3px solid rgba(var(--text-secondary));
+  border-bottom: 2px solid rgba(var(--text-secondary));
+}
+.ps-root .ps-algorithm.with-caption > .ps-line:first-child {
+  border-bottom: 2px solid rgba(var(--text-secondary));
+  padding-top: .5em;
+}
+.ps-root .katex {
+  text-indent: 0;
+  font-size: 1em;
+}
+.ps-root .MathJax,
+.ps-root .MathJax_CHTML {
+  text-indent: 0;
+  font-size: 1em !important;
+}
+.ps-root .ps-line {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+}
+.ps-root .ps-funcname {
+  font-family: MJXTEX, "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-variant: small-caps;
+  font-style: normal;
+  text-transform: none;
+}
+.ps-root .ps-keyword {
+  font-family: MJXTEX-B, "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-variant: normal;
+  font-style: normal;
+  text-transform: none;
+}
+.ps-root .ps-comment {
+  font-family: MJXTEX, "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-variant: normal;
+  font-style: normal;
+  text-transform: none;
+}
+.ps-root .ps-linenum {
+  font-size: 0.8em;
+  line-height: 1em;
+  width: 1.6em;
+  text-align: right;
+  display: inline-block;
+  position: relative;
+  padding-right: 0.3em;
+}
+.ps-root .ps-algorithmic.with-linenum .ps-line.ps-code {
+  text-indent: -1.6em;
+}
+.ps-root .ps-algorithmic.with-linenum .ps-line.ps-code > span {
+  text-indent: 0;
+}
+/* pseudocode.js end */
+/* code block start */
+pre.shiki {
+  counter-reset: shiki-line-number;
+}
+
+code span.shiki-line:before {
+  counter-increment: shiki-line-number;
+  content: counter(shiki-line-number);
+  color: #888;
+  margin-right: 1em;
+  margin-left: -8px;
+  text-align: right;
+  min-width: 2em;
+  display: inline-block;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+pre.shiki {
+  overflow: auto;
+  font-size: 13px;
+  text-shadow: none;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  -moz-tab-size: 2;
+  -o-tab-size: 2;
+  tab-size: 2;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+
+pre.shiki::selection,
+code.shiki::selection {
+  text-shadow: none;
+  background: #b3d4fc;
+}
+
+pre::-webkit-scrollbar {
+  width: .4rem;
+  height: .4rem;
+}
+
+pre::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background-color: rgba(255,255,255,.25);
+}
+
+@media print {
+  code.shiki,
+  pre.shiki {
+  text-shadow: none;
+  }
+}
+/* code block end */
+
+main img {
+  display: block;
+  margin: 0 auto;
+}
+
+.footnotes p {
+  display: inline;
+}
+
+.footnotes ol {
+  line-height: 2em;
+}

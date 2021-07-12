@@ -1,0 +1,1 @@
+{"componentChunkName":"component---gatsby-theme-oi-wiki-src-templates-tags-js","path":"/tags/chinese/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/test/"},"frontmatter":{"title":"测试页"}}}]}},"pageContext":{"tag":"Chinese"}},"staticQueryHashes":["2462162885"]}

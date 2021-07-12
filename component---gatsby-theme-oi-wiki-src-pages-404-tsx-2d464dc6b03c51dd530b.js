@@ -1,0 +1,2 @@
+(self.webpackChunkexample=self.webpackChunkexample||[]).push([[752],{754:function(e,l,t){"use strict";t.r(l);var n=t(7378),u=t(3745);l.default=function(e){return n.createElement(u.Z,{location:e,noEdit:"true",title:"404",noComment:"false"},n.createElement("div",null,n.createElement("div",null,n.createElement("h1",null,"404 is Found!"),n.createElement("p",null,"如果你是无意间来到这里的，请在下方告诉我们你是从哪里点进来的哦。"),n.createElement("br",null),n.createElement("br",null))))}}}]);
+//# sourceMappingURL=component---gatsby-theme-oi-wiki-src-pages-404-tsx-2d464dc6b03c51dd530b.js.map
